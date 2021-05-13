@@ -1,8 +1,9 @@
 
 * {background-color: rgb(255, 255, 255);}
-h1 {background-color: #023e8a;
+h1 {background-color: #004175;
     background-size: 300px 100px;
     background-repeat: no-repeat;
+    border-color: #89DEEF;
     color: white;
     text-align: left;
     padding: 25px;
