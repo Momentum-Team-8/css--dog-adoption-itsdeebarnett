@@ -31,12 +31,12 @@ header{width:100%;
 
 
 
-.head-text{
+/* .head-text{
     padding: 40px 40px 0px 40px;
     display: flex;
     align-items: left;
     justify-content: left;
-}
+} */
 
 h2{font-family: 'open sans';
     color:black;
@@ -68,12 +68,12 @@ h4{
 }
 
 
-div {
+/* div {
     width: 300px;
     height: fit-content;
     display: inline-block;
     padding: 30px 40px 40px 40px;
-}
+} */
 
 
 
@@ -131,35 +131,28 @@ img{
     width: 350px;
 }
 
+
+
 .container{
-    width: fit-content;
-    height: fit-content;
+    width: 1000px;
+    height: 250px;
     display: flex;
-    font-family: 'Oswald';
-    font-size: 40px;
-    color: #ffffff;
-    flex: 1 1 auto;
-    justify-content: center;
-    align-items: center;
-    background-color: #a6a9f0;
-    background-size: 300px 100px;
-    align-content: space-around;
-    flex-direction: row;
-    
-    
 }
 
-.donate {
+
+
+.DONATE {
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
+    
     font-family: 'Open Sans';
     font-weight: bold;
     font-size: 30px;
     color:white;
 
-    width:350px;
+    width:1000px;
     height: 235px;
 
     background: linear-gradient(
@@ -170,36 +163,70 @@ img{
 
     background-repeat: no-repeat;
     background-size: 100%;
+    
 }
-.volunteer {
-    text-align: center;
-    font-size: 50px;
-    padding: 75px;
-    margin: 0;
+.VOLUNTEER {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+
+    width: 1000px;
+    height: 235px;
+
     background: linear-gradient(
         rgba(166, 169, 240, 0.6),
         rgba(166, 169, 240, 0.6)
     ),
     url("starter_files/images/volunteer.jpg");
+    
+    background-repeat: no-repeat;
     background-size: 100%;
-    flex-grow: 1;
+    
+
 }
-.location {
+.LOCATION {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+    
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+
+    width: 1000px;
+    height: 235px;
+
     background: linear-gradient(
         rgba(166, 169, 240, 0.6),
         rgba(166, 169, 240, 0.6)
     ),
     url("starter_files/images/location.png");
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
 
 }
 
-div > p {
-    font-family: 'Oswald';
-    color: white;
-}
-/* footer {
+
+/* footer{
     display: flex;
-} */
+}     */
+
+    
+    /* opacity: .6; */
+    
+    /* flex: 1 1 auto; */
+
 
 
 
